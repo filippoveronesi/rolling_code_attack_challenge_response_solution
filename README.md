@@ -1,6 +1,6 @@
 # rolling_code_attack_challenge_response_solution
 
-
+Is a project divided into two different parts: a first attack part, where an attack theorised by Samy Kamkar at [DefCon](https://samy.pl/defcon2015) is implemented, and a second part where a defensive solution capable of countering the attack is implemented.
 
 ## Folders
 
