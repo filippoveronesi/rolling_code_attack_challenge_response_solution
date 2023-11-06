@@ -1,0 +1,6 @@
+# Attendi 1 secondo
+sleep 7
+
+# Compila il secondo file Python (key.py)
+echo "Compilazione di key.py"
+python3 chat_key.py

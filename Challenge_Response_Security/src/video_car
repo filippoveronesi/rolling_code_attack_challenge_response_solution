@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Attendi 3 secondi
+sleep 6
+
+# Compila il primo file Python (car.py)
+echo "Compilazione di car.py"
+python3 chat_car.py
