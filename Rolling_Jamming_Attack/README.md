@@ -15,5 +15,21 @@
 ###  Usage
 
 ```
-./diggbits.sh file.txt
+./diffbits.sh file.txt
 ```
+
+
+## Jamming Phase
+
+
+<p align="center">
+  <img src="https://github.com/filippoveronesi/rolling_code_attack_challenge_response_solution/blob/main/Rolling_Jamming_Attack/img/jammer_key_gqrx.png" alt="rolljam"/>
+</p>
+
+
+## Replay Phase 
+
+
+<p align="center">
+  <img src="https://github.com/filippoveronesi/rolling_code_attack_challenge_response_solution/blob/main/Rolling_Jamming_Attack/img/replay_gqrx.png" alt="rolljam"/>
+</p>
