@@ -15,6 +15,7 @@ It is important to emphasise that, despite the growing understanding of cyber at
 Within this thesis project, such an attack will be explored, highlighting its applicability in the automotive world and in other areas, such as alarm and gate devices. The practical example will demonstrate how Sub-GHz radio attacks pose a significant risk, which will require in-depth understanding and appropriate security measures to mitigate the negative effects on the security of affected devices and systems.  
 
 Subsequently, the project will endeavour to propose an innovative solution aimed at enhancing the security of the access protocol. This solution will be based on the design and implementation of a secure and robust communication protocol.
+
 ## Folders
 
 > + [Challenge_Response_Security][lk_sol]: Python-based defensive solution
@@ -25,3 +26,18 @@ Subsequently, the project will endeavour to propose an innovative solution aimed
 [lk_sol]: https://github.com/filippoveronesi/rolling_code_attack_challenge_response_solution/tree/main/Challenge_Response_Security "Challenge_Response_Security"
 [lk_att]: https://github.com/filippoveronesi/rolling_code_attack_challenge_response_solution/tree/main/Rolling_Jamming_Attack "[Rolling_Jamming_Attack"
 [lk_vid]: https://github.com/filippoveronesi/rolling_code_attack_challenge_response_solution/tree/main/Video_Test "Video_Test"
+
+
+## Rolling_Jamming_Attack
+
+<p align="center">
+  <img src="https://github.com/filippoveronesi/rolling_code_attack_challenge_response_solution/blob/main/Rolling_Jamming_Attack/img/rolljam-diagram.png" alt="rolljam"/>
+</p>
+
+
+## Challenge_Response_Security
+
+<p align="center">
+  <img src="https://github.com/filippoveronesi/rolling_code_attack_challenge_response_solution/blob/main/Challenge_Response_Security/img/protocol.png" alt="def"/>
+</p>
+
