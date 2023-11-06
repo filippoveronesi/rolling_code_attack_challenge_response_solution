@@ -1,8 +1,8 @@
 # Rolling_Jamming_Attack
 
-* [**Jamming Phase**]: disrupt communication between car and user pressing the key to unlock the car;
-* [**Listening Phase**]: capture the two opening signals transmitted by the key;
-* [**Replay Phase**]: transmit only the first of the two captured signals to unlock the machine, the second is stored locally for future use.
+* **Jamming Phase**: disrupt communication between car and user pressing the key to unlock the car;
+* **Listening Phase**: capture the two opening signals transmitted by the key;
+* **Replay Phase**: transmit only the first of the two captured signals to unlock the machine, the second is stored locally for future use.
 
 
 ## DiffBits
