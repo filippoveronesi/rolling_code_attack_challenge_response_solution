@@ -1,26 +1,26 @@
 # Exploiting and Securing Rolling Code Systems: A Practical Approach to Automotive Cybersecurity
 
-This project is divided into two main parts:  
-- **Attack Phase**: Implementation of the RollJam attack, a vulnerability theorized by Samy Kamkar at [DefCon](https://samy.pl/defcon2015).  
-- **Defense Phase**: Development of a countermeasure through a secure challenge-response protocol.
+This repository contains the work developed as part of a Master’s thesis in Computer Engineering, carried out within a research and development team specialized in **automotive cybersecurity**. The project focuses on wireless security vulnerabilities in Sub-GHz communication systems commonly used in remote keyless entry (RKE) devices and similar technologies.
+
+The thesis is structured in two main parts:
+- **Attack Phase**: Implementation of the RollJam attack, a method theorized by Samy Kamkar and demonstrated at [DefCon](https://samy.pl/defcon2015), which targets rolling code systems by exploiting signal jamming and replay vulnerabilities.
+- **Defense Phase**: Design and development of a secure communication protocol based on a challenge-response mechanism, aimed at preventing the vulnerabilities exposed in the first part.
 
 ## Abstract
 
-The automotive industry is undergoing rapid transformation, driven by technological innovation that is making vehicles increasingly intelligent and connected. From the push toward autonomous driving to the integration of advanced electronics, modern vehicles depend heavily on digital systems. This evolution brings with it critical cybersecurity challenges.
+The automotive industry is undergoing a rapid transformation, driven by continuous technological innovation. From the development of autonomous driving systems to the integration of smart electronic components, modern vehicles are becoming increasingly connected and reliant on software-driven systems. This evolution, however, brings with it critical challenges related to cybersecurity.
 
-Cybersecurity has become a foundational element in automotive design. Today’s vehicles include interconnected systems for everything from engine control to infotainment and assisted driving. While this connectivity offers improved comfort and safety, it also increases exposure to potential cyber threats.
+Cybersecurity has become a key pillar in the design and operation of modern vehicles. From engine control units to infotainment and advanced driver assistance systems, every component is potentially exposed to cyber threats. Among these, **radio-based attacks** on **Sub-GHz communication protocols** remain significantly underestimated, despite their effectiveness and potential impact.
 
-Among the most underestimated threats are **radio-based attacks**, particularly those using **Sub-GHz frequencies**. These attacks are powerful and can compromise a wide range of devices, including not just vehicles, but also alarms, gates, and other systems using similar wireless communication.
+Such attacks are not limited to the automotive sector; they also affect devices like alarm systems, garage doors, and other IoT systems operating on similar frequencies. This thesis explores one of the most effective techniques — the RollJam attack — and demonstrates its feasibility in real-world scenarios.
 
-This thesis explores a practical implementation of such an attack — the RollJam technique — and demonstrates its feasibility and impact. The work aims to highlight the risks associated with Sub-GHz radio attacks and show the need for stronger, more secure access control mechanisms.
-
-In the second part of the project, an **innovative defensive protocol** is proposed. Based on a challenge-response mechanism, this protocol enhances the security of access systems by preventing replay and jamming-based attacks.
+In response to this vulnerability, the project proposes and implements a **secure challenge-response protocol**, designed to protect against replay and jamming attacks. The result is a robust and practical solution to enhance the security of wireless access systems.
 
 ## Folders
 
-> + [Challenge_Response_Security](https://github.com/filippoveronesi/rolling_code_attack_challenge_response_solution/tree/main/Challenge_Response_Security): Python-based defensive solution  
-> + [Rolling_Jamming_Attack](https://github.com/filippoveronesi/rolling_code_attack_challenge_response_solution/tree/main/Rolling_Jamming_Attack): RollJam attack implementation targeting automotive remote keys  
-> + [Video_Test](https://github.com/filippoveronesi/rolling_code_attack_challenge_response_solution/tree/main/Video_Test): Demonstration videos of both attack and defense phases
+> + [Challenge_Response_Security](https://github.com/filippoveronesi/rolling_code_attack_challenge_response_solution/tree/main/Challenge_Response_Security): Python-based implementation of the defensive protocol  
+> + [Rolling_Jamming_Attack](https://github.com/filippoveronesi/rolling_code_attack_challenge_response_solution/tree/main/Rolling_Jamming_Attack): Practical implementation of the RollJam attack targeting automotive remote keys  
+> + [Video_Test](https://github.com/filippoveronesi/rolling_code_attack_challenge_response_solution/tree/main/Video_Test): Video demonstrations of both the attack and the defense mechanisms
 
 ## Rolling_Jamming_Attack
 
@@ -31,5 +31,5 @@ In the second part of the project, an **innovative defensive protocol** is propo
 ## Challenge_Response_Security
 
 <p align="center">
-  <img src="https://github.com/filippoveronesi/rolling_code_attack_challenge_response_solution/blob/main/Challenge_Response_Security/img/protocol.png" alt="def"/>
+  <img src="https://github.com/filippoveronesi/rolling_code_attack_challenge_response_solution/blob/main/Challenge_Response_Security/img/protocol.png" alt="defense protocol"/>
 </p>
