@@ -1,4 +1,4 @@
-# rolling_code_attack_challenge_response_solution
+# Exploiting and Securing Rolling Code Systems: A Practical Approach to Automotive Cybersecurity
 
 This project is divided into two main parts:  
 - **Attack Phase**: Implementation of the RollJam attack, a vulnerability theorized by Samy Kamkar at [DefCon](https://samy.pl/defcon2015).  
